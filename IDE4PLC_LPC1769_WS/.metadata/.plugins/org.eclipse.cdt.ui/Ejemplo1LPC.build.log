@@ -1,0 +1,30 @@
+02:30:48 **** Incremental Build of configuration Eric Debug for project Ejemplo1LPC ****
+make all 
+Building file: ../cr_startup_lpc17.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__USE_CMSIS=CMSISv1p30_LPC17xx -D__CODE_RED -D__REDLIB__ -I"C:\nxp\PLeriC_WS\PLeriC\inc" -I"C:\nxp\PLeriC_WS\Lib_CMSIS\Drivers\include" -I"C:\nxp\PLeriC_WS\Lib_CMSIS\Core\CM3\DeviceSupport\NXP\LPC17xx" -I"C:\nxp\PLeriC_WS\Lib_CMSIS\Core\CM3\CoreSupport" -I"C:\nxp\PLeriC_WS\FreeRTOS_Library\demo_code" -I"C:\nxp\PLeriC_WS\FreeRTOS_Library\include" -I"C:\nxp\PLeriC_WS\FreeRTOS_Library\portable" -O1 -g3 -fsigned-char -c -fmessage-length=0 -fno-builtin -ffunction-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"cr_startup_lpc17.d" -MT"cr_startup_lpc17.d" -o "cr_startup_lpc17.o" "../cr_startup_lpc17.c"
+Finished building: ../cr_startup_lpc17.c
+ 
+Building file: ../main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__USE_CMSIS=CMSISv1p30_LPC17xx -D__CODE_RED -D__REDLIB__ -I"C:\nxp\PLeriC_WS\PLeriC\inc" -I"C:\nxp\PLeriC_WS\Lib_CMSIS\Drivers\include" -I"C:\nxp\PLeriC_WS\Lib_CMSIS\Core\CM3\DeviceSupport\NXP\LPC17xx" -I"C:\nxp\PLeriC_WS\Lib_CMSIS\Core\CM3\CoreSupport" -I"C:\nxp\PLeriC_WS\FreeRTOS_Library\demo_code" -I"C:\nxp\PLeriC_WS\FreeRTOS_Library\include" -I"C:\nxp\PLeriC_WS\FreeRTOS_Library\portable" -O1 -g3 -fsigned-char -c -fmessage-length=0 -fno-builtin -ffunction-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Ejemplo1LPC.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\nxp\PLeriC_WS\Lib_CMSIS\Debug" -L"C:\nxp\PLeriC_WS\PLeriC\Debug" -L"C:\nxp\PLeriC_WS\FreeRTOS_Library\Debug" -Xlinker --gc-sections -Xlinker -Map=Ejemplo1LPC.map -mcpu=cortex-m3 -mthumb -T "Prueba_PLC_Boolean_Operations.ld" -L "../linkscripts/" -o "Ejemplo1LPC.axf"  ./cr_startup_lpc17.o ./main.o   -lPLeriC -lLib_CMSIS -lFreeRTOS_Library
+C:\nxp\PLeriC_WS\FreeRTOS_Library\Debug\libFreeRTOS_Library.a(tasks.o): In function `vTaskIncrementTick':
+D:\Proyecto\LPCXpresso\FreeRTOS_Library\Debug/../tasks.c:1392: undefined reference to `vApplicationTickHook'
+D:\Proyecto\LPCXpresso\FreeRTOS_Library\Debug/../tasks.c:1405: undefined reference to `vApplicationTickHook'
+C:\nxp\PLeriC_WS\FreeRTOS_Library\Debug\libFreeRTOS_Library.a(tasks.o): In function `prvIdleTask':
+D:\Proyecto\LPCXpresso\FreeRTOS_Library\Debug/../tasks.c:1828: undefined reference to `vApplicationIdleHook'
+C:\nxp\PLeriC_WS\FreeRTOS_Library\Debug\libFreeRTOS_Library.a(tasks.o): In function `vTaskSwitchContext':
+D:\Proyecto\LPCXpresso\FreeRTOS_Library\Debug/../tasks.c:1580: undefined reference to `vApplicationStackOverflowHook'
+D:\Proyecto\LPCXpresso\FreeRTOS_Library\Debug/../tasks.c:1581: undefined reference to `vApplicationStackOverflowHook'
+C:\nxp\PLeriC_WS\FreeRTOS_Library\Debug\libFreeRTOS_Library.a(heap_2.o): In function `pvPortMalloc':
+D:\Proyecto\LPCXpresso\FreeRTOS_Library\Debug/../portable/heap_2.c:237: undefined reference to `vApplicationMallocFailedHook'
+collect2: ld returned 1 exit status
+make: *** [Ejemplo1LPC.axf] Error 1
+
+02:30:49 Build Finished (took 1s.436ms)
+

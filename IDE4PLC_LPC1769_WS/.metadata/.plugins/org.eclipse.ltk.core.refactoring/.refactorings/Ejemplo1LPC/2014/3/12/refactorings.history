@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Ejemplo1LPC/Debug/PLeriC_Project.axf&apos; to &apos;Ejemplo1LPC.axf&apos;" description="Rename resource &apos;PLeriC_Project.axf&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Debug/PLeriC_Project.axf" name="Ejemplo1LPC.axf" stamp="1395293395558" updateReferences="true"/>
+</session>

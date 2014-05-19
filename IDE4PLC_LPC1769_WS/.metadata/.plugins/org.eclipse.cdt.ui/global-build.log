@@ -1,0 +1,37 @@
+04:15:03 **** Incremental Build of configuration Debug for project FreeRTOS_Library ****
+make all 
+make: Nothing to be done for `all'.
+04:15:05 **** Incremental Build of configuration Debug for project PLeriC_Project ****
+make all 
+make: Nothing to be done for `all'.
+04:15:22 **** Incremental Build of configuration Debug for project FreeRTOS_Library ****
+make all 
+make: Nothing to be done for `all'.
+04:15:23 **** Incremental Build of configuration Debug for project PLeriC_Project ****
+make all 
+Building target: PLeriC_Project.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Debug" -L"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\PLeriC_Library\Debug" -L"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\Debug" -Xlinker --gc-sections -Xlinker -Map=PLeriC_Project.map -mcpu=cortex-m3 -mthumb -T "PLeriC_Project_Debug.ld" -o "PLeriC_Project.axf"  ./cr_startup_lpc17.o ./main.o   -lPLeriC_Library -lLib_CMSIS -lFreeRTOS_Library
+Finished building target: PLeriC_Project.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size PLeriC_Project.axf; # arm-none-eabi-objcopy -O ihex PLeriC_Project.axf PLeriC_Project.hex ;
+   text	   data	    bss	    dec	    hex	filename
+  13552	      8	  12956	  26516	   6794	PLeriC_Project.axf
+ 
+04:16:05 **** Incremental Build of configuration Debug for project FreeRTOS_Library ****
+make all 
+make: Nothing to be done for `all'.
+04:16:06 **** Incremental Build of configuration Debug for project PLeriC_Project ****
+make all 
+make: Nothing to be done for `all'.
+04:17:20 **** Incremental Build of configuration Debug for project FreeRTOS_Library ****
+make all 
+make: Nothing to be done for `all'.
+04:17:21 **** Incremental Build of configuration Debug for project PLeriC_Project ****
+make all 
+make: Nothing to be done for `all'.
+04:20:47 **** Incremental Build of configuration Debug for project PLeriC_Project ****
+make all 
+make: Nothing to be done for `all'.

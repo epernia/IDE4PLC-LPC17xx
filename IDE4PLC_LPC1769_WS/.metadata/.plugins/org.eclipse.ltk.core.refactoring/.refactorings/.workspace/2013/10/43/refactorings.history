@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Prueba_PLC_Boolean_Operations/Release build&apos;" deleteContents="false" description="Delete resource &apos;Prueba_PLC_Boolean_Operations/Release build&apos;" element1="/Prueba_PLC_Boolean_Operations/Release build" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1382557187160"/>
+</session>

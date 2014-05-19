@@ -1,0 +1,6 @@
+00:43:50 **** Incremental Build of configuration Debug for project LedFlash ****
+make all 
+make: Nothing to be done for `all'.
+
+00:43:50 Build Finished (took 90ms)
+

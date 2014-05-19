@@ -1,0 +1,253 @@
+04:14:25 **** Build of configuration Debug for project PLeriC_Library ****
+make all 
+Building file: ../src/PLC_Hardware.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__USE_CMSIS=CMSISv1p30_LPC17xx -D__REDLIB__ -DDEBUG -D__CODE_RED -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Drivers\include" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Core\CM3\DeviceSupport\NXP\LPC17xx" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Core\CM3\CoreSupport" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\demo_code" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\include" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\portable" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\PLeriC_Library\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/PLC_Hardware.d" -MT"src/PLC_Hardware.d" -o "src/PLC_Hardware.o" "../src/PLC_Hardware.c"
+Finished building: ../src/PLC_Hardware.c
+ 
+Building file: ../src/PLC_IL_Instructions.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__USE_CMSIS=CMSISv1p30_LPC17xx -D__REDLIB__ -DDEBUG -D__CODE_RED -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Drivers\include" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Core\CM3\DeviceSupport\NXP\LPC17xx" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Core\CM3\CoreSupport" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\demo_code" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\include" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\portable" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\PLeriC_Library\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/PLC_IL_Instructions.d" -MT"src/PLC_IL_Instructions.d" -o "src/PLC_IL_Instructions.o" "../src/PLC_IL_Instructions.c"
+../src/PLC_IL_Instructions.c: In function 'PLC_IL_LD':
+../src/PLC_IL_Instructions.c:330:16: warning: assignment from incompatible pointer type [enabled by default]
+../src/PLC_IL_Instructions.c:79:2: warning: enumeration value 'STRING' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:79:2: warning: enumeration value 'WSTRING' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c: In function 'PLC_IL_ST':
+../src/PLC_IL_Instructions.c:361:9: warning: assignment from incompatible pointer type [enabled by default]
+../src/PLC_IL_Instructions.c: In function 'PLC_IL_EQ':
+../src/PLC_IL_Instructions.c:415:2: warning: enumeration value 'OTHER' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c: In function 'PLC_IL_NE':
+../src/PLC_IL_Instructions.c:570:2: warning: enumeration value 'OTHER' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c: In function 'PLC_IL_GT':
+../src/PLC_IL_Instructions.c:725:2: warning: enumeration value 'OTHER' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c: In function 'PLC_IL_GE':
+../src/PLC_IL_Instructions.c:874:2: warning: enumeration value 'OTHER' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c: In function 'PLC_IL_LT':
+../src/PLC_IL_Instructions.c:1023:2: warning: enumeration value 'OTHER' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c: In function 'PLC_IL_LE':
+../src/PLC_IL_Instructions.c:1172:2: warning: enumeration value 'OTHER' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c: In function 'PLC_IL_ADD':
+../src/PLC_IL_Instructions.c:1323:2: warning: enumeration value 'BOOL' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1323:2: warning: enumeration value 'BYTE' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1323:2: warning: enumeration value 'WORD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1323:2: warning: enumeration value 'DWORD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1323:2: warning: enumeration value 'LWORD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1323:2: warning: enumeration value 'D' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1323:2: warning: enumeration value 'TOD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1323:2: warning: enumeration value 'DT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1323:2: warning: enumeration value 'STRING' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1323:2: warning: enumeration value 'WSTRING' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1323:2: warning: enumeration value 'BCD16' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1323:2: warning: enumeration value 'BCD32' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1323:2: warning: enumeration value 'OTHER' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c: In function 'PLC_IL_SUB':
+../src/PLC_IL_Instructions.c:1401:2: warning: enumeration value 'BOOL' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1401:2: warning: enumeration value 'BYTE' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1401:2: warning: enumeration value 'WORD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1401:2: warning: enumeration value 'DWORD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1401:2: warning: enumeration value 'LWORD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1401:2: warning: enumeration value 'D' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1401:2: warning: enumeration value 'TOD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1401:2: warning: enumeration value 'DT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1401:2: warning: enumeration value 'STRING' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1401:2: warning: enumeration value 'WSTRING' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1401:2: warning: enumeration value 'BCD16' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1401:2: warning: enumeration value 'BCD32' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1401:2: warning: enumeration value 'OTHER' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c: In function 'PLC_IL_MUL':
+../src/PLC_IL_Instructions.c:1476:2: warning: enumeration value 'BOOL' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1476:2: warning: enumeration value 'BYTE' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1476:2: warning: enumeration value 'WORD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1476:2: warning: enumeration value 'DWORD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1476:2: warning: enumeration value 'LWORD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1476:2: warning: enumeration value 'D' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1476:2: warning: enumeration value 'TOD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1476:2: warning: enumeration value 'DT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1476:2: warning: enumeration value 'STRING' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1476:2: warning: enumeration value 'WSTRING' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1476:2: warning: enumeration value 'BCD16' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1476:2: warning: enumeration value 'BCD32' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1476:2: warning: enumeration value 'OTHER' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c: In function 'PLC_IL_DIV':
+../src/PLC_IL_Instructions.c:1551:2: warning: enumeration value 'BOOL' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1551:2: warning: enumeration value 'BYTE' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1551:2: warning: enumeration value 'WORD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1551:2: warning: enumeration value 'DWORD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1551:2: warning: enumeration value 'LWORD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1551:2: warning: enumeration value 'D' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1551:2: warning: enumeration value 'TOD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1551:2: warning: enumeration value 'DT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1551:2: warning: enumeration value 'STRING' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1551:2: warning: enumeration value 'WSTRING' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1551:2: warning: enumeration value 'BCD16' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1551:2: warning: enumeration value 'BCD32' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1551:2: warning: enumeration value 'OTHER' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c: In function 'PLC_IL_MOD':
+../src/PLC_IL_Instructions.c:1626:2: warning: enumeration value 'BOOL' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1626:2: warning: enumeration value 'BYTE' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1626:2: warning: enumeration value 'WORD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1626:2: warning: enumeration value 'DWORD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1626:2: warning: enumeration value 'LWORD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1626:2: warning: enumeration value 'REAL' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1626:2: warning: enumeration value 'LREAL' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1626:2: warning: enumeration value 'TIME' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1626:2: warning: enumeration value 'D' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1626:2: warning: enumeration value 'TOD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1626:2: warning: enumeration value 'DT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1626:2: warning: enumeration value 'STRING' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1626:2: warning: enumeration value 'WSTRING' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1626:2: warning: enumeration value 'BCD16' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1626:2: warning: enumeration value 'BCD32' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1626:2: warning: enumeration value 'OTHER' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c: In function 'PLC_IL_AND':
+../src/PLC_IL_Instructions.c:1686:2: warning: enumeration value 'SINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1686:2: warning: enumeration value 'INT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1686:2: warning: enumeration value 'DINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1686:2: warning: enumeration value 'LINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1686:2: warning: enumeration value 'USINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1686:2: warning: enumeration value 'UINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1686:2: warning: enumeration value 'UDINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1686:2: warning: enumeration value 'ULINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1686:2: warning: enumeration value 'REAL' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1686:2: warning: enumeration value 'LREAL' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1686:2: warning: enumeration value 'TIME' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1686:2: warning: enumeration value 'D' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1686:2: warning: enumeration value 'TOD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1686:2: warning: enumeration value 'DT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1686:2: warning: enumeration value 'STRING' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1686:2: warning: enumeration value 'WSTRING' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1686:2: warning: enumeration value 'BCD16' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1686:2: warning: enumeration value 'BCD32' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1686:2: warning: enumeration value 'OTHER' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c: In function 'PLC_IL_OR':
+../src/PLC_IL_Instructions.c:1766:2: warning: enumeration value 'SINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1766:2: warning: enumeration value 'INT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1766:2: warning: enumeration value 'DINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1766:2: warning: enumeration value 'LINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1766:2: warning: enumeration value 'USINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1766:2: warning: enumeration value 'UINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1766:2: warning: enumeration value 'UDINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1766:2: warning: enumeration value 'ULINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1766:2: warning: enumeration value 'REAL' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1766:2: warning: enumeration value 'LREAL' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1766:2: warning: enumeration value 'TIME' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1766:2: warning: enumeration value 'D' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1766:2: warning: enumeration value 'TOD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1766:2: warning: enumeration value 'DT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1766:2: warning: enumeration value 'STRING' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1766:2: warning: enumeration value 'WSTRING' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1766:2: warning: enumeration value 'BCD16' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1766:2: warning: enumeration value 'BCD32' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1766:2: warning: enumeration value 'OTHER' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c: In function 'PLC_IL_XOR':
+../src/PLC_IL_Instructions.c:1846:2: warning: enumeration value 'SINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1846:2: warning: enumeration value 'INT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1846:2: warning: enumeration value 'DINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1846:2: warning: enumeration value 'LINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1846:2: warning: enumeration value 'USINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1846:2: warning: enumeration value 'UINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1846:2: warning: enumeration value 'UDINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1846:2: warning: enumeration value 'ULINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1846:2: warning: enumeration value 'REAL' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1846:2: warning: enumeration value 'LREAL' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1846:2: warning: enumeration value 'TIME' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1846:2: warning: enumeration value 'D' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1846:2: warning: enumeration value 'TOD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1846:2: warning: enumeration value 'DT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1846:2: warning: enumeration value 'STRING' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1846:2: warning: enumeration value 'WSTRING' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1846:2: warning: enumeration value 'BCD16' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1846:2: warning: enumeration value 'BCD32' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1846:2: warning: enumeration value 'OTHER' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c: In function 'PLC_IL_NOT':
+../src/PLC_IL_Instructions.c:1920:2: warning: enumeration value 'SINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1920:2: warning: enumeration value 'INT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1920:2: warning: enumeration value 'DINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1920:2: warning: enumeration value 'LINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1920:2: warning: enumeration value 'USINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1920:2: warning: enumeration value 'UINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1920:2: warning: enumeration value 'UDINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1920:2: warning: enumeration value 'ULINT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1920:2: warning: enumeration value 'REAL' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1920:2: warning: enumeration value 'LREAL' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1920:2: warning: enumeration value 'TIME' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1920:2: warning: enumeration value 'D' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1920:2: warning: enumeration value 'TOD' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1920:2: warning: enumeration value 'DT' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1920:2: warning: enumeration value 'STRING' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1920:2: warning: enumeration value 'WSTRING' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1920:2: warning: enumeration value 'BCD16' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1920:2: warning: enumeration value 'BCD32' not handled in switch [-Wswitch]
+../src/PLC_IL_Instructions.c:1920:2: warning: enumeration value 'OTHER' not handled in switch [-Wswitch]
+Finished building: ../src/PLC_IL_Instructions.c
+ 
+Building file: ../src/PLC_Registers.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__USE_CMSIS=CMSISv1p30_LPC17xx -D__REDLIB__ -DDEBUG -D__CODE_RED -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Drivers\include" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Core\CM3\DeviceSupport\NXP\LPC17xx" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Core\CM3\CoreSupport" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\demo_code" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\include" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\portable" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\PLeriC_Library\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/PLC_Registers.d" -MT"src/PLC_Registers.d" -o "src/PLC_Registers.o" "../src/PLC_Registers.c"
+Finished building: ../src/PLC_Registers.c
+ 
+Building file: ../src/PLC_StdFunctionBlocks.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__USE_CMSIS=CMSISv1p30_LPC17xx -D__REDLIB__ -DDEBUG -D__CODE_RED -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Drivers\include" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Core\CM3\DeviceSupport\NXP\LPC17xx" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Core\CM3\CoreSupport" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\demo_code" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\include" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\portable" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\PLeriC_Library\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/PLC_StdFunctionBlocks.d" -MT"src/PLC_StdFunctionBlocks.d" -o "src/PLC_StdFunctionBlocks.o" "../src/PLC_StdFunctionBlocks.c"
+Finished building: ../src/PLC_StdFunctionBlocks.c
+ 
+Building file: ../src/PLC_StdFunctions.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__USE_CMSIS=CMSISv1p30_LPC17xx -D__REDLIB__ -DDEBUG -D__CODE_RED -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Drivers\include" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Core\CM3\DeviceSupport\NXP\LPC17xx" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Core\CM3\CoreSupport" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\demo_code" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\include" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\portable" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\PLeriC_Library\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/PLC_StdFunctions.d" -MT"src/PLC_StdFunctions.d" -o "src/PLC_StdFunctions.o" "../src/PLC_StdFunctions.c"
+Finished building: ../src/PLC_StdFunctions.c
+ 
+Building file: ../src/PLC_UserFunctionBlocks.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__USE_CMSIS=CMSISv1p30_LPC17xx -D__REDLIB__ -DDEBUG -D__CODE_RED -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Drivers\include" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Core\CM3\DeviceSupport\NXP\LPC17xx" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Core\CM3\CoreSupport" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\demo_code" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\include" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\portable" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\PLeriC_Library\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/PLC_UserFunctionBlocks.d" -MT"src/PLC_UserFunctionBlocks.d" -o "src/PLC_UserFunctionBlocks.o" "../src/PLC_UserFunctionBlocks.c"
+Finished building: ../src/PLC_UserFunctionBlocks.c
+ 
+Building file: ../src/PLC_UserFunctions.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__USE_CMSIS=CMSISv1p30_LPC17xx -D__REDLIB__ -DDEBUG -D__CODE_RED -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Drivers\include" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Core\CM3\DeviceSupport\NXP\LPC17xx" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Core\CM3\CoreSupport" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\demo_code" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\include" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\portable" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\PLeriC_Library\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/PLC_UserFunctions.d" -MT"src/PLC_UserFunctions.d" -o "src/PLC_UserFunctions.o" "../src/PLC_UserFunctions.c"
+Finished building: ../src/PLC_UserFunctions.c
+ 
+Building file: ../src/PLC_UserPrograms.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__USE_CMSIS=CMSISv1p30_LPC17xx -D__REDLIB__ -DDEBUG -D__CODE_RED -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Drivers\include" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Core\CM3\DeviceSupport\NXP\LPC17xx" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Core\CM3\CoreSupport" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\demo_code" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\include" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\portable" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\PLeriC_Library\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/PLC_UserPrograms.d" -MT"src/PLC_UserPrograms.d" -o "src/PLC_UserPrograms.o" "../src/PLC_UserPrograms.c"
+Finished building: ../src/PLC_UserPrograms.c
+ 
+Building file: ../src/PLC_UserTasks.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__USE_CMSIS=CMSISv1p30_LPC17xx -D__REDLIB__ -DDEBUG -D__CODE_RED -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Drivers\include" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Core\CM3\DeviceSupport\NXP\LPC17xx" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Core\CM3\CoreSupport" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\demo_code" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\include" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\portable" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\PLeriC_Library\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/PLC_UserTasks.d" -MT"src/PLC_UserTasks.d" -o "src/PLC_UserTasks.o" "../src/PLC_UserTasks.c"
+../src/PLC_UserPrograms.c: In function 'PLC_P_MAIN_PROG_BOOL':
+../src/PLC_UserPrograms.c:46:12: warning: unused variable 'C' [-Wunused-variable]
+../src/PLC_UserPrograms.c:45:12: warning: unused variable 'B' [-Wunused-variable]
+../src/PLC_UserPrograms.c:44:12: warning: unused variable 'A' [-Wunused-variable]
+../src/PLC_UserPrograms.c:43:12: warning: unused variable 'MEM' [-Wunused-variable]
+../src/PLC_UserPrograms.c:34:12: warning: unused variable 'FLUX' [-Wunused-variable]
+Finished building: ../src/PLC_UserTasks.c
+ 
+Building file: ../src/PLeriC.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__USE_CMSIS=CMSISv1p30_LPC17xx -D__REDLIB__ -DDEBUG -D__CODE_RED -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Drivers\include" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Core\CM3\DeviceSupport\NXP\LPC17xx" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\Lib_CMSIS\Core\CM3\CoreSupport" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\demo_code" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\include" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\FreeRTOS_Library\portable" -I"C:\IDE4PLC.app\Contents\Resources\IDE4PLC_LPC1769_WS\PLeriC_Library\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/PLeriC.d" -MT"src/PLeriC.d" -o "src/PLeriC.o" "../src/PLeriC.c"
+Finished building: ../src/PLeriC.c
+ 
+Building target: libPLeriC_Library.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "libPLeriC_Library.a"  ./src/PLC_Hardware.o ./src/PLC_IL_Instructions.o ./src/PLC_Registers.o ./src/PLC_StdFunctionBlocks.o ./src/PLC_StdFunctions.o ./src/PLC_UserFunctionBlocks.o ./src/PLC_UserFunctions.o ./src/PLC_UserPrograms.o ./src/PLC_UserTasks.o ./src/PLeriC.o   
+c:\nxp\LPCXpresso_5.2.4_2122\lpcxpresso\tools\bin\arm-none-eabi-ar.exe: creating libPLeriC_Library.a
+Finished building target: libPLeriC_Library.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "libPLeriC_Library.a" ; # arm-none-eabi-objdump -h -S "libPLeriC_Library.a" >"libPLeriC_Library.lss"
+   text	   data	    bss	    dec	    hex	filename
+    688	      0	      0	    688	    2b0	PLC_Hardware.o (ex libPLeriC_Library.a)
+  15044	      0	      0	  15044	   3ac4	PLC_IL_Instructions.o (ex libPLeriC_Library.a)
+    420	      0	      0	    420	    1a4	PLC_Registers.o (ex libPLeriC_Library.a)
+      0	      0	      0	      0	      0	PLC_StdFunctionBlocks.o (ex libPLeriC_Library.a)
+     88	      0	      0	     88	     58	PLC_StdFunctions.o (ex libPLeriC_Library.a)
+      0	      0	      0	      0	      0	PLC_UserFunctionBlocks.o (ex libPLeriC_Library.a)
+      0	      0	      0	      0	      0	PLC_UserFunctions.o (ex libPLeriC_Library.a)
+    208	      0	      0	    208	     d0	PLC_UserPrograms.o (ex libPLeriC_Library.a)
+    664	      0	     20	    684	    2ac	PLC_UserTasks.o (ex libPLeriC_Library.a)
+    724	      0	      0	    724	    2d4	PLeriC.o (ex libPLeriC_Library.a)
+ 
+
+04:14:43 Build Finished (took 18s.426ms)
+

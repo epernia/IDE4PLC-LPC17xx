@@ -1,0 +1,6 @@
+00:44:07 **** Incremental Build of configuration Debug for project RDB1768cmsis2_usb_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+
+00:44:07 Build Finished (took 150ms)
+

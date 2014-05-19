@@ -1,0 +1,16 @@
+00:43:49 **** Incremental Build of configuration Debug for project Example01 ****
+make all 
+Building target: Example01.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"D:\Proyecto\LPCXpresso\CMSISv1p30_LPC17xx\Debug" -L"D:\Proyecto\LPCXpresso\FreeRTOS_Library\Debug" -Xlinker --gc-sections -Xlinker -Map=Example01.map -mcpu=cortex-m3 -mthumb -T "example01_Debug.ld" -o "Example01.axf"  ./cr_startup_lpc17.o ./main.o   -lCMSISv1p30_LPC17xx -lFreeRTOS_Library
+Finished building target: Example01.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size Example01.axf; # arm-none-eabi-objcopy -O ihex Example01.axf Example01.hex ;
+   text	   data	    bss	    dec	    hex	filename
+  16168	      4	  10920	  27092	   69d4	Example01.axf
+ 
+
+00:43:49 Build Finished (took 554ms)
+

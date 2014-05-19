@@ -1,0 +1,12 @@
+14:27:25 **** Build of configuration Debug for project PLeriC ****
+make all 
+Building file: ../src/PLC_Hardware.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__USE_CMSIS=CMSISv1p30_LPC17xx -D__REDLIB__ -DDEBUG -D__CODE_RED -I"C:\nxp\PLeriC_WS\Lib_CMSIS\Drivers\include" -I"C:\nxp\PLeriC_WS\Lib_CMSIS\Core\CM3\DeviceSupport\NXP\LPC17xx" -I"C:\nxp\PLeriC_WS\Lib_CMSIS\Core\CM3\CoreSupport" -I"C:\nxp\PLeriC_WS\FreeRTOS_Library\demo_code" -I"C:\nxp\PLeriC_WS\FreeRTOS_Library\include" -I"C:\nxp\PLeriC_WS\FreeRTOS_Library\portable" -I"C:\nxp\PLeriC_WS\PLeriC\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/PLC_Hardware.d" -MT"src/PLC_Hardware.d" -o "src/PLC_Hardware.o" "../src/PLC_Hardware.c"
+In file included from C:\nxp\PLeriC_WS\PLeriC\inc/PLeriC.h:37:0,
+                 from ../src/PLC_Hardware.c:8:
+C:\nxp\PLeriC_WS\PLeriC\inc/PLC_UserPrograms.h:41:4: error: unknown type name 'PLC_F_Struct_GE_INT'
+make: *** [src/PLC_Hardware.o] Error 1
+
+14:27:26 Build Finished (took 666ms)
+

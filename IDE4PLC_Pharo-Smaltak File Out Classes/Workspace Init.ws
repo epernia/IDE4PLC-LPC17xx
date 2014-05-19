@@ -1,0 +1,1 @@
+"Configure and initialize IDE4PLC"PLeriC initialize."Initialize GUI of IDE4PLC"PLeriC initializeGUI.

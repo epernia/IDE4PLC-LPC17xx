@@ -1,0 +1,6 @@
+00:44:06 **** Incremental Build of configuration Debug for project RDB1768cmsis2_usbstack ****
+make all 
+make: Nothing to be done for `all'.
+
+00:44:06 Build Finished (took 200ms)
+

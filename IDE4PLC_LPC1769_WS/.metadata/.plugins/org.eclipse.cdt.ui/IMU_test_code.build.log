@@ -1,0 +1,6 @@
+00:44:08 **** Incremental Build of configuration Debug for project IMU_test_code ****
+make all 
+make: Nothing to be done for `all'.
+
+00:44:09 Build Finished (took 290ms)
+
