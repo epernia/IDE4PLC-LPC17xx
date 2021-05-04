@@ -110,7 +110,6 @@ Acerca del autor
 	Nombres y apellido: Eric Nicolás Pernia.
 	Ubicación actual: Quilmes, Buenos Aires, Argentina.
 
-	e-mail 1: ericpernia@hotmail.com
-	e-mail 2: ericpernia@gmail.com
+	e-mail: ericpernia@gmail.com
 	
 	
